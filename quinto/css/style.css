@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(209, 209, 209);
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+}
+
+
+main article{
+    order: 1;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(93, 95, 95) ;
+}
+
+nav{
+    
+    width: 25%;
+    background-color: rgb(158, 158, 158);
+}
+aside{
+    background-color: rgb(158, 158, 158);
+    order: 1;
+    width: 25%;
+}
+
+footer{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+}
